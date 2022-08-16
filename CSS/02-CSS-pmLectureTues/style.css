@@ -1,0 +1,80 @@
+ *{
+    /* color:blue; */
+    /* border: 4px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: aquamarine;
+    padding: 20px;
+    /* border: 5px solid pink; */
+}
+
+h1{
+    color:blue;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+
+/* .red-font{
+    color:red;
+}
+
+#purp{
+    color:purple;
+} */
+
+/* #header p{
+    font-family: cursive;
+    color: magenta;
+    font-size: 24px;
+} */
+
+#header{
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    height:200px;
+    margin-bottom: 20px;
+}
+
+#slogan{
+    margin-bottom: 10px;
+}
+
+#header>button{
+    padding:5px;
+    height: 50px;
+    width: 100px;
+}
+
+#leftBar{
+    height: 300px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#name{
+    height: 500px;
+    background-color: brown;
+    width: 700px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.blueBox{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 50%;
+}
