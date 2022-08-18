@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, gray, white, white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    height: 100%;
+    width: 1000px;
+}
+
+#coverPhoto{
+    height: 600px;
+    background: url(./treeRoots.webp);
+    background-size: cover;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+#coverPhoto>button{
+    padding: 8px;
+    font-weight: 700;
+}
+
+#coverPhoto>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px double white;
+    background-color: teal;
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
+
+#info{
+    height: 300px;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+#info>p{
+    color: gray;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#row{
+
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row-left, #row-right{
+
+    height: 40px;
+    width: 200px;
+}
+
+#row-left>img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+#friend2{
+    position:relative;
+    right: 10px;
+}
+
+#addSt{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#editPro{
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
