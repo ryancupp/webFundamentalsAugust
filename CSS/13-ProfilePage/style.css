@@ -47,7 +47,7 @@
 }
 
 #left{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     flex:2;
     padding: 10px;
 }
@@ -137,7 +137,7 @@ h1{
 }
 
 #right{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex: 1;
     padding: 10px;
 }

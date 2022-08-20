@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    /* height: 100px; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px 150px;
+    margin-bottom: 30px;
+}
+
+#navbar>ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar>button{
+    background-color: cadetblue;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.flexcontainer{
+    background-color: gray;
+    display: flex;
+    gap: 20px;
+    padding: 0px 150px;
+}
+
+#colLeft, #colRight{
+    height:1000px;
+    background-color: palegoldenrod;
+    /* border: 3px solid red; */
+}
+
+#colLeft{
+    flex:2;
+}
+
+#colRight{
+    flex:1;
+}
+
+#usercard{
+    /* border: 1px solid blue; */
+    /* height: 500px; */
+}
+#usercardtop{
+    height: 150px;
+    /* border:2px solid gray; */
+    background-color: cadetblue;
+}
+
+#usercardbody{
+    height: 350px;
+    border: 2px solid darkslategray;
+    border-top: none;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+#usercardbody>h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#usercardtop>img{
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: 75px;
+    left: 40px;
+}
+#loca{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#loca>img{
+    height: 20px;
+}
