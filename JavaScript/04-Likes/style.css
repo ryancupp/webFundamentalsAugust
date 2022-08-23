@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px 30px;
+}
+
+#box{
+    border: 2px solid black;
+    height: 200px;
+    padding: 20px;
+}
+
+#topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#topBar button {
+    padding: 10px;
+    background-color: darkgoldenrod;
+    font-size: 15px;
+    width: 70px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
