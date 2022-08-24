@@ -26,7 +26,12 @@ function pauseVideo(vid){
 }
 
 function switchImage(imgElement){
-    imgElement.src= "./resources/anothaPuppy.jpeg"
+    console.log(imgElement.src)
+    if(imgElement.src === "http://127.0.0.1:5500/03-week3/puppyGram/resources/beagle.jpeg"){
+        imgElement.src = "./resources/anothaPuppy.jpeg";
+    }else{
+        imgElement.src = "./resources/beagle.jpeg"
+    }
 }
 
 function removeCookieBox(id){
@@ -43,4 +48,15 @@ function increaseLikes(elementID){
 
     spanElement.innerText = currentCount;
 
+}
+
+function searchPuppy(){
+    let element = document.querySelector("#name-search");
+    alert("you searched for "+ element.value);
+}
+
+function chzLocation(element){
+    // alert("you are searching for a pet in: " + element.value)
+
+    alert(`You are searching for a dog in ${element.value}.`)
 }

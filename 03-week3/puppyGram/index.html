@@ -11,8 +11,15 @@
     <div id="navBar">
         <h1>PuppyGram</h1>
         <div id="navMiddle">
-            <input type="text" placeholder="Search a puppy name">
-            <button>Search!</button>
+            <input id="name-search" type="text" placeholder="Search a puppy name">
+            <select onchange="chzLocation(this)">
+                <option value="">Select a location</option>
+                <option value="DC">DC</option>
+                <option value="NYC">NYC</option>
+                <option value="Miami">Miami</option>
+                <option value="Charleston">Charleston</option>
+            </select>
+            <button onclick="searchPuppy()">Search!</button>
         </div>
         <button onclick="toggleLogin(this)">Login</button>
     </div>
@@ -31,7 +38,10 @@
             </div>
             <div class="puppy-box">
                 <div class="puppy-box-left">
-                    <img onmouseover="switchImage(this)" src="./resources/beagle.jpeg" alt="puppy1">
+                    <img 
+                    onmouseover="switchImage(this)"
+                    onmouseout="switchImage(this)"
+                    src="./resources/beagle.jpeg" alt="puppy1">
                     <h3>Fluffy</h3>
                     <em>Female</em>
                     <p>Breed: <em>Beagle</em></p>

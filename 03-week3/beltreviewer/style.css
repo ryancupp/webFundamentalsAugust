@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 30px;
+}
+
+#header{
+    /* height: 100px;
+    border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#header img{
+    height: 75px;
+}
+
+#headerRight{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#headerRight a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar img{
+    height: 20px;
+    position: relative;
+    right: 50px;
+    top: 3px;
+}
+
+#nav-bar{
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid black;
+}
+
+#nav-bar input{
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#nav-bar a{
+    color: black;
+}
+
+#slogan{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    padding: 10px;
+}
+
+#players-row{
+    /* height: 200px;
+    border: 2px solid red; */
+    background-color: coral;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.player img{
+    height: 100px;
+}
+
+.player{
+    text-align: center;
+}
+
+#flex-contain{
+    display: flex;
+    gap: 20px;
+}
+
+#col-l{
+    flex: 1;
+}
+
+#try-now{
+    background-color: coral;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+#try-now img{
+    height: 50px;
+    width: 100px;
+}
+
+#reg{
+    width:100%;
+    margin-top: 20px;
+
+}
+
+#col-r{
+    flex: 2;
+    display: flex;
+    
+}
+
+#col-r img{
+    height: 290px;
+    width:240px;
+}
+
+#learn{
+    height: 290px;
+    background-color: coral;
+    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#learn button{
+    padding: 10px 20px;
+    font-size: 33px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 2px 2px 2px black;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+#terms{
+    background-color: gray;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#terms h5{
+    text-align: center;
+}
+
+#cookiebox{
+    background-color: burlywood;
+    position: fixed;
+    bottom: 20px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#cookiebox img{
+    height: 100px;
+}
+
+#cookiebox button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
