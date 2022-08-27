@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px 50px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#header img{
+    height: 30px;
+}
+
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+#search{
+    position: relative;
+    right: 70px;
+}
+
+#header input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+#leaf{
+    background-color: rgb(0, 225, 150);
+    
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+#flex-contain{
+    display: flex;
+}
+
+#col-left{
+    flex: 2;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 150);
+    color: white;
+    font-size: 25px;
+    /* padding: 10px; */
+    margin-right: 10px;
+    display: flex;
+}
+#discover{
+    padding: 10px;
+    
+}
+#discover p{
+    margin-bottom: 20px;
+    display: inline-block;
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+    /* align-items: center;
+    justify-content: center; */
+} 
+
+#arrow1{
+    /* display: inline-block;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    top: 25px;
+}
+
+#assortment{
+    height: 230px;
+    display: inline;
+}
+
+#col-right{
+    flex: 1;
+}
+
+#aloe{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#soothe{
+    display: flex;
+    background-color: rgb(0, 225, 150);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.plant img{ 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#succulent-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:lightskyblue;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.plant{
+    text-align: center;
+}
+
+#cookie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    font-size: small;
+    position: fixed;
+    width: 90%;
+    padding: 10px;
+    gap: 10px;
+}
+
+#cookie button{
+    background-color: rgb(0, 225, 150);
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border:2px solid black;
+    box-shadow: 2px 2px 2px black;
+}

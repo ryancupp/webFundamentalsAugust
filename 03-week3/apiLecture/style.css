@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: green; */
+}
+
+#coin-list{
+    border: 2px inset blue;
+    height: 1000px;
+}
+
+button{
+    background-color: aquamarine;
+    padding: 5px 8px;
+    font-size: 22px;
+    margin: 20px 0px;
+}
